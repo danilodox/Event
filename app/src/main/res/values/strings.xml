@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Eventos</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!--  text, buttons, editText... -->
+    <string name="name">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="title">Título</string>
+    <string name="date">Data</string>
+    <string name="price">Preço</string>
+    <string name="description">Descrição</string>
+    <string name="checkin">Check-in</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- Tratando possíveis erros de checkin -->
+    <string name="valida_name">Por favor, preencha o nome</string>
+    <string name="valida_email">Por favor, preencha o e-mail</string>
+    <string name="valida_name_email">Por favor, verifique seu E-mail e seu nome se estão corretos e tente novamente</string>
+    <string name="ops">Ops... Alguma coisa aconteceu!!</string>
+    <string name="try_again">Tente novamente mais tarde!!</string>
+
+
+
+    <!-- Toast Checkin -->
+    <string name="toast_checkin">Check-in realizado com sucesso!</string>
+
+
+
+
+</resources>

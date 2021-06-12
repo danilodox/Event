@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/progress_loading_checkin"
+        layout="@layout/view_loading"
+        android:visibility="gone"
+        />
+
+    <include
+        android:id="@+id/error_network_checkin"
+        layout="@layout/view_error"
+        android:visibility="gone"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_checkin_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText_checkin_nome"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:elevation="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textColorHint="@color/dark_state"
+            android:hint="@string/name" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_checkin_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText_checkin_email"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:elevation="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textColorHint="@color/dark_state"
+            android:hint="@string/email" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_checkin"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:elevation="8dp"
+            android:elegantTextHeight="true"
+            android:textAllCaps="false"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/checkin" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:elevation="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textAllCaps="false"
+            android:elegantTextHeight="true"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
